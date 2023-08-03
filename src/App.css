@@ -1,0 +1,36 @@
+
+.wrapper{
+  width: 1000px;
+  height: 600px;
+  margin: 100px auto;
+}
+
+.images{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper-images{
+  height: 100%;
+  position: relative;
+}
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  z-index: 1;
+  cursor: pointer;
+  transform: translate(0,-50%);
+  width: 35px;
+}
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  z-index: 1;
+  cursor: pointer;
+  transform: translate(0,-50%);
+  width: 35px;
+}
